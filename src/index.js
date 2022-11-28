@@ -5,7 +5,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Body from "./Body";
 
-function Page() {
+function App() {
   return (
     <div>
       <Header />
@@ -19,4 +19,4 @@ function Page() {
 // ReactDOM.render(navbar, document.getElementById("root"));
 
 //React 18
-ReactDOM.createRoot(document.getElementById("root")).render(<Page />);
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
